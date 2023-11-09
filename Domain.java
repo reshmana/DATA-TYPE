@@ -1,0 +1,4 @@
+enum Domain {
+
+   EMAIL,OUTLOOK;
+}

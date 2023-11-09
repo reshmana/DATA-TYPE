@@ -5,14 +5,15 @@ class PersonRunning
 		
 		
 		System.out.println("Starting main");
-		Email[] email= new Email[4];
 		
-		email[0]=new Email("email.com",171,"Reshma","naik");
-		email[1]=new Email("gmail.com",177,"Pooja","naik");
-		email[2]=new Email("yahoo.com",717,"Harsha","naik");
-		email[3]=new Email("facebook.com",771,"Sunil","naik");
+		String[] email= new String[4];
 		
-		Person person = new Person("Rakhsitha",email);
+		email[0]=("email.com");
+		email[1]=("gmail.com");
+		email[2]=("yahoo.com");
+		email[3]=("facebook.com");
+		
+		Person person = new Person(email);
 		person.showInfo();
 		
 		System.out.println("Ending main");
